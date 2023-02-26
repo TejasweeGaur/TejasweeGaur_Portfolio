@@ -1,0 +1,106 @@
+[
+  {
+    "id": "9c36661d-ca65-4bf8-b34a-f3f938c9ef50",
+    "year": 2023,
+    "organization": "Accenture Solution Pvt. Ltd.",
+    "title": "Business & Integration Architecture Analyst",
+    "duration": "March 2023 - Present",
+    "details": "Analyze an organization and design its processes and systems, assessing the business model and its integration with technology. Assess current state, identify customer requirements, and define the future state and/or business solution. Research, gather and synthesize information. Use of Strong Functional and Technical in Health and EMR is mandatory.",
+    "pointer": [
+      "Strong business acumen and ample experience of interaction with clients to understand their requisites and implement the same.",
+      "Worked with Client, End Users and Architects to understand, analyze and implement new requirements.",
+      "Involved in end-to-end delivery process and regular interactions with client.",
+      "Well-versed with deployment processes and Agile delivery methods. Hands-on experience with GitBash, BitBucket, Jenkins, and CI-CD pipeline.",
+      "Successfully implemented and delivered multiple new functionalities to existing applications in order to meet the changing demands of clients and end-users."
+    ],
+    "skills": [
+      "User Stories",
+      "Story Writing",
+      "Requirements Analysis",
+      "Business Analysis",
+      "Jira",
+      "Confluence",
+      "Requirements Gathering",
+      "Functional Analysis",
+      "Technical Analysis",
+      "Agile Project Management",
+      "Microsoft Excel"
+    ],
+    "awards": [
+      {
+        "title": "Best Performance 2022",
+        "issuedBy": "Business and Integration Architecture Team Lead, Accenture",
+        "issueDate": "December, 2022",
+        "details": "Best Performance of the Year Award by Business and Integration Architecture Team Lead, Accenture for overall best performance and delivery for the year 2022."
+      },
+      {
+        "title": "Star Performer",
+        "issuedBy": "Business and Integration Architecture Associate Manager, Accenture",
+        "issueDate": "July, 2022",
+        "details": "Star Performer of Project for delivering highest quality work to Client and positively impacting 500 Pharmacies"
+      }
+    ]
+  },
+  {
+    "id": "5a35719e-7fc5-46bb-931c-100610070279",
+    "year": 2021,
+    "title": "Full Stack Developer",
+    "organization": "Accenture Solution Pvt. Ltd.",
+    "duration": "2 years",
+    "details": "Responsible for developing and/or engineering the end-to-end features of a system, from user experience to backend code. Use development skills to deliver innovative solutions that help our clients improve the services they provide. Leverage new technologies that can be applied to solve challenging business problems with a cloud first and agile mindset.",
+    "pointer": [
+      "Strong business acumen and ample experience of interaction with clients to understand their requisites and implement the same.",
+      "Worked on user stories and incorporated new changes as per the requirements to enhance the overall experience of the end-user.",
+      "Delivered Features and functionalities in short spans of time. Experienced in defect triage and resolution within expected timeframes.",
+      "Well-versed with deployment processes and Agile delivery methods. Hands-on experience with GitBash, BitBucket, Jenkins, and CI-CD pipeline.",
+      "Successfully implemented and delivered multiple new functionalities to existing applications in order to meet the changing demands of clients and end-users."
+    ],
+    "skills": [
+      "Java Enterprise Edition",
+      "Spring Framework",
+      "Spring MVC",
+      "Spring Boot",
+      "REST/RestFull APIs",
+      "Weblogic",
+      "JIRA",
+      "Jenkins",
+      "Unit Testing"
+    ],
+    "awards": [
+      {
+        "title": "Best Delivery",
+        "issuedBy": "Technology Delivery Lead Associate Director, Accenture",
+        "issueDate": "February, 2022",
+        "details": "Best Delivery award from Associate Director, Accenture for delivering highest quality work and helping Client transition from old healthcare framework to new and enhanced healthcare modules."
+      },
+      {
+        "title": "Excellence In Work",
+        "issuedBy": "Application Development Associate Manager, Accenture",
+        "issueDate": "February, 2022",
+        "details": "Excellence in Work Award from Associate Manager, Accenture for learning Client Business and product in short timwspan with steep learning Curve. Helped develop critical features and resolve production defects before deadline."
+      }
+    ]
+  },
+  {
+    "id": "fe2d914a-01c9-4c95-86f6-39820ccecf0c",
+    "year": 2019,
+    "title": "Intern",
+    "organization": "Defence Research and Development Organisation (DRDO)",
+    "duration": "2 months",
+    "details": "Actively participated and contributed in the creation of an automatic image focusing system capable of automatically focusing on the desired image using an edge detection technique.",
+    "pointer": [""],
+    "skills": [""],
+    "awards": [{}]
+  },
+  {
+    "id": "6ca66205-d244-4e68-87db-d0f563c025c8",
+    "year": 2018,
+    "title": "Intern",
+    "organization": "Defence Research and Development Organisation (DRDO)",
+    "duration": "2 months",
+    "details": "Actively participated and contributed in the creation of a smart system using Atmega 328p microcontroller to provide wireless control of AC home appliances to the user and to provide on-demand details of temperature, humidity and fan speed through SMS service. ",
+    "pointer": [""],
+    "skills": [""],
+    "awards": [{}]
+  }
+]

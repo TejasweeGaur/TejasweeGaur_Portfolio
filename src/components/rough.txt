@@ -1,0 +1,55 @@
+/** @format */
+
+const handleAward = (awards) => {
+  let awardArray = [];
+  const award = awards;
+
+  // Loop through each award in the "awards" array and extract the "title" key
+  for (let j = 0; j < award.length; j++) {
+    let award1 = awards[j];
+    if (!(award1.title === undefined)) awardArray.push(award1);
+  }
+
+  console.log("Award Array : ", awardArray.length);
+  return awardArray.length != 0 ? (
+    awardArray.map((a) => {
+      return (
+        <div key={uuidv4()}>
+          <div>{a.title}</div>
+          <div>{a.issuedBy}</div>
+          <div>{a.issueDate}</div>
+          <div>{a.details}</div>
+        </div>
+      );
+    })
+  ) : (
+    <div>None</div>
+  );
+};
+
+return (
+  <div id='work'>
+    {workData.map((work) => {
+      return (
+        <div key={work.id}>
+          <h2>Title : {work.title}</h2>
+          <h3>Organization : {work.organization}</h3>
+          <h4>Year : {work.year}</h4>
+          <h5>Duration : {work.duration}</h5>
+          <p>Details : {work.details}</p>
+          Points: <br />
+          {work.pointer.length >= 1 &&
+            work.pointer.map((item) => {
+              return (
+                <ul key={uuidv4()}>
+                  <li>{item}</li>
+                </ul>
+              );
+            })}
+          Awards and Honors: <br />
+          {handleAward(work.awards)}
+        </div>
+      );
+    })}
+  </div>
+);
