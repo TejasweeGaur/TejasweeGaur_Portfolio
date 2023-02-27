@@ -23,7 +23,7 @@ const Main = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/30'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 '>
             Hi ! <br /> I'm Tejaswee Gaur
           </h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 font-semibold font-serif text-gray-800'>
@@ -51,6 +51,7 @@ const Main = () => {
               title='Linked In'
               target='_blank'
               rel='noopener noreferrer'
+              className='hover:scale-150 ease-in duration-200'
             >
               <FaLinkedinIn size={30} />
             </a>
@@ -59,6 +60,7 @@ const Main = () => {
               title='Git Hub'
               target='_blank'
               rel='noopener noreferrer'
+              className='hover:scale-150 ease-in duration-200'
             >
               <FaGithub size={30} />
             </a>
@@ -67,6 +69,7 @@ const Main = () => {
               title='Code Pen'
               target='_blank'
               rel='noopener noreferrer'
+              className='hover:scale-150 ease-in duration-200'
             >
               <FaCodepen size={30} />
             </a>
@@ -75,6 +78,7 @@ const Main = () => {
               title='CSS Battle'
               target='_blank'
               rel='noopener noreferrer'
+              className='hover:scale-150 ease-in duration-200'
             >
               <FaCss3 size={30} />
             </a>
