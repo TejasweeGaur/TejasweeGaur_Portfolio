@@ -1,5 +1,6 @@
 /** @format */
 
+import Contacts from "./components/Contacts";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import SideNav from "./components/SideNav";
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Work />
       <Projects />
+      <Contacts />
     </div>
   );
 }
