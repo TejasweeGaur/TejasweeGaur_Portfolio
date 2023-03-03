@@ -51,6 +51,11 @@ const WorkItem = (work) => {
           <span className='text-lg font-semibold text-[#001b5e]'>
             {data.title}
           </span>
+        </p>
+        <p className='flex flex-wrap gap-4 items-center justify-start text-xs md:text-sm'>
+          <span className='text-md font-semibold text-[#001b5e] ml-16'>
+            {data.organization}
+          </span>
           <span className='my-1 text-sm font-medium leading-none text-stone-500'>
             {data.duration}
           </span>
@@ -60,7 +65,7 @@ const WorkItem = (work) => {
         </p>
         {data.pointer.length > 1 ? (
           <div className='text-md font-semibold text-[#001b5e]'>
-            Points: <br />
+            Responsibilities: <br />
           </div>
         ) : undefined}
         {data.pointer.length > 1
